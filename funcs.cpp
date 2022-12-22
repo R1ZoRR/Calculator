@@ -3,7 +3,12 @@
 
 using namespace std;
 
-float Example(float x, float y)
+float Sum(float x, float y)
 {
-    cout<<"Plaseholder.";
+    return x+y;
+}
+
+float Substract(float x, float y)
+{
+    return x-y;
 }
