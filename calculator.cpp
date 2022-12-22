@@ -18,21 +18,28 @@ int main()
     switch(symbol)
     {
         case '+':
-            cout << "Placeholder.";
+            cout << Sum(x, y);
+            break;
 
         case '-':
-            cout << "Placeholder.";
+            cout << Substract(x, y);
+            break;
 
         case '*':
             cout << "Placeholder.";
+            break;
 
         case '/':
             cout << "Placeholder.";
+            break;
         case 'r':
             cout << "Placeholder.";
+            break;
         case 'q':
             cout << "Placeholder.";
+            break;
     }
+    cout << endl;
     system("pause");
     return 0;
 }
