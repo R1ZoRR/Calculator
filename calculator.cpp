@@ -7,30 +7,30 @@ int main()
 {
     float x, y;
     char symbol;
-
+    cout << "Hello!\nYoure just launched Ivan's calculator.\n";
     cout << "Enter first number:\n";
     cin >> x;
     cout << "Enter second number:\n";
     cin >> y;
-    cout << "Options: +, -, *, /, r, q.\nEnter your operation: ";
+    cout << "List of operations: +, -, *, /, 'q' - for exit.\nEnter your operation: ";
     cin >> symbol;
 
     switch(symbol)
     {
         case '+':
-            cout << Sum(x, y);
+            cout << "result: " << Sum(x, y);
             break;
 
         case '-':
-            cout << Substract(x, y);
+            cout << "result: " << Substract(x, y);
             break;
 
         case '*':
-            cout << Multiply(x, y);
+            cout << "result: " << Multiply(x, y);
             break;
 
         case '/':
-            cout << Divide(x, y);
+            cout << "result: " << Divide(x, y);
             break;
         case 'q':
             break;
