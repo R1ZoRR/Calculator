@@ -3,7 +3,12 @@
 
 using namespace std;
 
-float Example(float x, float y)
+float Multiply(float x, float y)
 {
-    cout<<"Plaseholder.";
+    return x*y;
+}
+
+float Divide(float x, float y)
+{
+    return x/y;
 }

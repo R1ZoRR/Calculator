@@ -8,31 +8,34 @@ int main()
     float x, y;
     char symbol;
 
-    cout << "1.\n";
+    cout << "Enter first number:\n";
     cin >> x;
-    cout << "2.\n";
+    cout << "Enter second number:\n";
     cin >> y;
-    cout << "3.\n";
+    cout << "Options: +, -, *, /, r, q.\nEnter your operation: ";
     cin >> symbol;
 
     switch(symbol)
     {
         case '+':
             cout << "Placeholder.";
+            break;
 
         case '-':
             cout << "Placeholder.";
+            break;
 
         case '*':
-            cout << "Placeholder.";
+            cout << Multiply(x, y);
+            break;
 
         case '/':
-            cout << "Placeholder.";
-        case 'r':
-            cout << "Placeholder.";
+            cout << Divide(x, y);
+            break;
         case 'q':
-            cout << "Placeholder.";
+            break;
     }
+    cout << endl;
     system("pause");
     return 0;
 }
