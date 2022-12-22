@@ -19,25 +19,19 @@ int main()
     {
         case '+':
             cout << "Placeholder.";
-            break;
 
         case '-':
             cout << "Placeholder.";
-            break;
 
         case '*':
             cout << "Placeholder.";
-            break;
 
         case '/':
             cout << "Placeholder.";
-            break;
-    case 'r':
-        cout << "Placeholder.";
-        break;
-    case 'q':
-        cout << "Placeholder.";
-        break;
+        case 'r':
+            cout << "Placeholder.";
+        case 'q':
+            cout << "Placeholder.";
     }
     system("pause");
     return 0;
